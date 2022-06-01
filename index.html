@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | MensajesWebXR</title>
-    <meta name="description" content="Badish">
+    <title>Unity WebGL Player | MensajesAR</title>
+    <meta name="description" content="">
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -25,19 +25,19 @@
         <button id="entervr" value="Enter VR" disabled>VR</button>
         <button id="enterar" value="Enter AR" disabled>AR</button>
         <div id="unity-webxr-link">Using <a href="https://github.com/De-Panther/unity-webxr-export" target="_blank" title="WebXR Export">WebXR Export</a></div>
-        <div id="unity-build-title">MensajesWebXR</div>
+        <div id="unity-build-title">MensajesAR</div>
       </div>
     </div>
     <script>
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/x.loader.js";
       var config = {
-        dataUrl: buildUrl + "/x.data",
-        frameworkUrl: buildUrl + "/x.framework.js",
-        codeUrl: buildUrl + "/x.wasm",
+        dataUrl: buildUrl + "/x.data.gz",
+        frameworkUrl: buildUrl + "/x.framework.js.gz",
+        codeUrl: buildUrl + "/x.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "Badish",
-        productName: "MensajesWebXR",
+        companyName: "BadishMX",
+        productName: "MensajesAR",
         productVersion: "0.1",
       };
 
